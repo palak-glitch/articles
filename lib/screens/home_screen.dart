@@ -79,9 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ],
             ),
-            body: !snapshot.hasData ?
-            Center(child: Text('No connection...')) :
-            Column(
+            body: Column(
               children: [
                 Padding(
                   padding: EdgeInsets.fromLTRB(
