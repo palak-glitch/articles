@@ -49,9 +49,22 @@ persisting favorite articles, notifying the UI of state changes using ChangeNoti
 
 ## Screenshots (Optional)
 
-![Home Screen](assets/1.jpg)
-![Favorite Screen with no data](assets/2.jpg)
-![Favorite function](assets/3.jpg)
-![Pull-to-refresh](assets/4.jpg)
-![Home Screen with data](assets/5.jpg)
-![Search function](assets/6.jpg)
+[//]: # (![Home Screen]&#40;assets/1.jpg&#41;)
+
+[//]: # (![Favorite Screen with no data]&#40;assets/2.jpg&#41;)
+
+[//]: # (![Favorite function]&#40;assets/3.jpg&#41;)
+
+[//]: # (![Pull-to-refresh]&#40;assets/4.jpg&#41;)
+
+[//]: # (![Favorite Screen with data]&#40;assets/5.jpg&#41;)
+
+[//]: # (![Search function]&#40;assets/6.jpg&#41;)
+
+
+<img src="assets/1.jpg" width="300" alt="Home Screen">
+<img src="assets/1.jpg" width="300" alt="Favorite Screen with no data">
+<img src="assets/1.jpg" width="300" alt="Favorite function">
+<img src="assets/1.jpg" width="300" alt="Pull-to-refresh">
+<img src="assets/1.jpg" width="300" alt="Favorite Screen with data">
+<img src="assets/1.jpg" width="300" alt="Search function">
