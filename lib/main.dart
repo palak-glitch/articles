@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Articles',
         theme: ThemeData(
             useMaterial3: true,
-          colorSchemeSeed: Colors.teal,
-          navigationBarTheme: NavigationBarThemeData(
+            colorSchemeSeed: Colors.teal,
+            navigationBarTheme: NavigationBarThemeData(
             height: 70,
             backgroundColor: Colors.white,
             surfaceTintColor: Colors.transparent,

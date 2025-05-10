@@ -29,4 +29,5 @@ class LocalStorageService {
     final List decoded = jsonDecode(jsonString);
     return decoded.map((a) => ArticleForm.fromJson(a)).toList();
   }
+
 }

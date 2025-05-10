@@ -32,9 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final provider = Provider.of<ArticleProvider>(context);
     final width = MediaQuery.of(context).size.width;
-    final textScale = MediaQuery.of(context).textScaleFactor;
 
     return Consumer<ArticleProvider>(
         builder: (context, provider, _)
@@ -98,7 +96,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         _debounce = Timer(const Duration(milliseconds: 500), () {
                           provider.searchArticles(query);
                         });
-                        // provider.searchArticles(query); // Now searches by title
                       },
                       decoration: InputDecoration(
                         hintText: 'Search by title...',
@@ -123,7 +120,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         vertical: 8,
                       ),
                       itemCount: provider.articles.length,
-                      // itemCount: provider.articles.length,
                       itemBuilder: (context, index) {
                         final article = provider.articles[index];
                         final isFav = provider.isFavorite(article.id);

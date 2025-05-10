@@ -36,21 +36,6 @@ class ArticleProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  // Future<void> fetchArticles() async {
-  //   _isLoading = true;
-  //   _error = null;
-  //   notifyListeners();
-  //
-  //   try {
-  //     _articles = await _apiService.fetchArticles();
-  //     _filteredArticles = _articles;
-  //   } catch (e) {
-  //     _error = e.toString();
-  //   }
-  //
-  //   _isLoading = false;
-  //   notifyListeners();
-  // }
   Future<void> fetchArticles() async {
     _isLoading = true;
     _error = null;

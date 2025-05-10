@@ -1,7 +1,3 @@
-// To parse this JSON data, do
-//
-//     final articleForm = articleFormFromJson(jsonString);
-
 import 'dart:convert';
 
 List<ArticleForm> articleFormFromJson(String str) => List<ArticleForm>.from(json.decode(str).map((x) => ArticleForm.fromJson(x)));

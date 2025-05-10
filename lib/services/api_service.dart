@@ -2,6 +2,7 @@ import 'package:http/http.dart' as http;
 import '../models/article_form.dart';
 
 class ApiService {
+
   Future<List<ArticleForm>> fetchArticles() async {
     final url = Uri.parse('https://jsonplaceholder.typicode.com/posts');
 
@@ -17,4 +18,5 @@ class ApiService {
       throw Exception('Error fetching articles: $e');
     }
   }
+
 }

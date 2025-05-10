@@ -51,7 +51,7 @@ class FavoritesScreen extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                             builder:
-                                (_) => ArticleDetailsScreen(article: article),
+                                (context) => ArticleDetailsScreen(article: article),
                           ),
                         );
                       },

@@ -14,7 +14,6 @@ class ArticleDetailsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Article Details',
-          // style: TextStyle(fontSize: width * 0.05),
         ),
         centerTitle: true,
         elevation: 2,

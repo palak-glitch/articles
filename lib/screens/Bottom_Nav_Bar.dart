@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'favorites_screen.dart';
 import 'home_screen.dart';
-
 
 
 class BottomNavBar extends StatefulWidget {
