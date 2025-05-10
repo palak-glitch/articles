@@ -25,7 +25,7 @@ class FavoritesScreen extends StatelessWidget {
           favorites.isEmpty
               ? Center(
                 child: Text(
-                  'No connection. Showing saved favorites if available.',
+                  'Showing saved favorites if available.',
                   style: TextStyle(fontSize: width * 0.045, color: Colors.grey),
                 ),
               )
